@@ -7,14 +7,7 @@
  */
 
 
-p {
-  padding-top: 10px;
- font-family: sans-serif; 
-}
 
-
-#navigation a:hover {
-color: gray;
 
 html {
   font-family: cursive; /* 1 */
