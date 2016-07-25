@@ -41,9 +41,9 @@ nav ul li {
 
 nav > ul > li > a {
 
-    color: #aaa;
+    color: blue;
 
-    background-color:#FF0;
+    background-color: black;
 
     display: block;
 
