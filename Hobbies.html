@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dropdowns 1: Basic, single level</title>
+	<style>
+		body {
+			font: 15px arial, helvetica, sans-serif;
+			background: #333;
+			color: #fff;
+		}
+	
+		a {
+			color: #06c;
+		}
+	
+		ul { /* all lists... */
+			padding: 0;
+			margin: 0;
+			background: #fff;
+		}
+	
+		li { /* all list items... */
+			display: inline; /* set the list items left-to-right */
+			position: relative; /* set the origin for child boxes to be positioned from */
+		}
+
+		ul ul { /* lists within lists... */
+			position: absolute; /* place them over the top of everything */
+			left: 0; /* align them to the left of the parent list item  - necessary for some older browsers */
+			top: 100%; /* align them to the bottom of the parent list item - again only necessary for older browsers */
+			display: none; /* hide 'em */
+		}
+	
+		li:hover ul { /* when list items are hovered over, do this to lists contained within them... */
+			display: block; /* show 'em */
+		}
+	</style>
+</head>
+
+<body>
+	<ul>
+		<li>
+			<a href="">Gardening</a>
+			<ul>
+				<li><a href="">Spring</a></li>
+				<li><a href="">Summer</a></li>
+				<li><a href="">Fall</a></li>
+				<li><a href="">Winter</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">Reading</a>
+			<ul>
+				<li><a href="">Educational</a></li>
+				<li><a href="">Fiction</a></li>
+				<li><a href="">Nonfiction</a></li>
+			</ul>
+		</li>
+		<li>
+			<a href="">Sports</a>
+			<ul>
+				<li><a href="">Horse Racing</a></li>
+				<li><a href="">Hiking</a></li>
+				<li><a href="">Camping</a></li>
+				
+			</ul>
+		</li>
+		<li>
+			<a href="">Programming</a>
+			<ul>
+				<li><a href="">Beginning programming</a></li>
+				<li><a href="">Web programming</a></li>
+				<li><a href="">Visual basic</a></li>
+			</ul>
+		</li>
+	</ul>
+
+	<p>The basics of a CSS dropdown menu. View source for in-line comments or read the HTML Dog <a href="/techniques/dropdowns/">Dropdowns technique article</a> for more information.</p>
+
+	<!-- Link back to HTML Dog: -->
+	<p><a href="http://www.htmldog.com/examples/"><img src="http://www.htmldog.com/badge1.gif" alt="HTML Dog"></a></p>
+</body>
+</html>
