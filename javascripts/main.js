@@ -1,1 +1,1 @@
-console.log (THis is cool-FireMiner99)
+console.log (This is cool-FireMiner99 I might add a game too.)
