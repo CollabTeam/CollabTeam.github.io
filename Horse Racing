@@ -1,0 +1,55 @@
+<html> 
+<head>  
+<link rel="shortcut icon" type="image/x-icon" href="Toggle (1).png " />
+<title> CollabTeam.github.io </title>
+<link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+ 
+ 
+<nav>
+
+        <ul>
+
+     <li><a href="https://collabteam.github.io">Home</a></li>
+     <li><a href="https://collabteam.github.io/Hobbies.html">Hobbies</a></li>
+     <li><a href="https://collabteam.github.io/About.html">About</a></li>
+
+         
+
+        </ul>
+
+    </nav>
+</head>
+<body>  	
+<style>
+    body {
+        background-color:#e6f0ff;
+        
+    }
+    div {
+        padding-left:50px;
+        
+    }
+    li {
+        color: #006400;
+        
+    }
+   
+</style>
+<div>
+<h1> Horse Racing </h1>  
+<h2>THorse racing is an equestrian performance sport, involving two or more jockeys riding horses over a set distance for competition.</h2>  
+<ul>      
+  <li>Thoroughbred Racing</li>  
+  <li>Standardbred Racing</li>  
+</ul>  <p> </p>  
+
+
+<h2> Racing Information</h2>  
+  <p> Find information here:  <a href="http://www.iqhra.com/">Iowa Quarter Horse Racing </a></p>  
+  <p> Find information here:  <a href="http://www.iowaharnessracing.com/"> Iowa Harness Racing </a></p>
+  
+</div>
+</body> 
